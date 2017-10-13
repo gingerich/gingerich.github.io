@@ -101,6 +101,12 @@ a.btn:hover {
   font-size: 25px;
   font-weight: normal;
 }
+.avatar {
+  border: 4px solid #fff;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
 .header {
   background: #00BCD4;
   color: #fff;
@@ -385,7 +391,8 @@ a.btn:hover {
   color: #666;
 }
 .education-section .item {
-  margin-bottom: 45px;
+  margin: 0 auto 45px auto;
+  // margin-bottom: 45px;
 }
 .education-section .item-inner {
   padding: 0 30px;
